@@ -1,0 +1,30 @@
+.navbar {
+	min-height: 100px;
+	background-color: $colorsecunadario;
+	box-shadow: 0 2px 4px $color-auxiliar;
+}
+
+a {
+	text-decoration: none;
+	color: $color-auxiliar;
+	padding-right: 10px;
+	font-weight: 600;
+
+	&:hover {
+		color: white;
+		text-decoration: none;
+	}
+}
+
+.logo {
+	min-width: 220px;
+	max-width: 240px;
+}
+
+.navbar-toggler {
+	font-size: 40px;
+
+	&:focus {
+		outline: none;
+	}
+}

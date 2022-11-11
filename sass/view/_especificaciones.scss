@@ -1,0 +1,43 @@
+.bordes {
+    border: 1px solid black;
+}
+
+.margen-es {
+    margin-top: 200px;
+}
+
+@media screen and (max-width: $mediaMobile) {
+    .subtitulo-tabla {
+        padding-left: 125px;
+        font-size: 20px;
+    }
+
+    .titulo-tabla {
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    .bajarmas {
+        padding-top: 110px;
+    }
+}
+
+@media screen and (min-width: $mediadesktop) {
+    .subtitulo-tabla {
+        padding-left: 0px;
+        font-size: 20px;
+    }
+
+    .titulo-tabla {
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    .bajarmas {
+        padding-top: 525px;
+    }
+
+    .letra-tabla {
+        font-size: 14px;
+    }
+}

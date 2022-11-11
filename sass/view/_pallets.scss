@@ -1,0 +1,69 @@
+.margenpa {
+    margin-top: 200px;
+}
+
+@media screen and (max-width: $mediaMobile) {
+    .titulopa {
+        text-align: center;
+        font-size: $font-titulo-movil;
+        margin-bottom: 40px;
+    }
+
+    .nompallets {
+        font-size: 15px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .img-margen {
+        margin-bottom: 10px;
+    }
+
+    .boton-margen {
+        margin-bottom: 40px;
+    }
+
+    .botonpa {
+        text-align: center;
+        background-color: $colorsecunadario;
+        border-radius: 100px;
+        margin-bottom: 180px;
+    }
+
+    .centrar-boton {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: $mediadesktop) {
+    .titulopa {
+        text-align: center;
+        font-size: $font-titulo-desktop;
+        margin-bottom: 40px;
+    }
+
+    .nompallets {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .img-margen {
+        margin-bottom: 10px;
+    }
+
+    .boton-margen {
+        margin-bottom: 40px;
+    }
+
+    .botonpa {
+        text-align: center;
+        background-color: $colorsecunadario;
+        border-radius: 100px;
+        margin-bottom: 150px;
+    }
+
+    .centrar-boton {
+        width: 100px;
+    }
+}

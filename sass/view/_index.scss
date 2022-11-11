@@ -1,0 +1,121 @@
+.margen,
+.margen-titulo {
+    margin-top: 100px;
+}
+
+.titulo {
+    font-size: $font-titulo-desktop;
+    text-align: center;
+}
+
+.fondo,
+.fondo1 {
+    height: 231px;
+    padding: 0px;
+}
+
+.video-efecto:hover {
+    filter: brightness(50%);
+}
+
+.video {
+    height: 400px;
+    width: 900px;
+}
+
+.animate__animated.animate__pulse:hover {
+    animation-iteration-count: infinite;
+}
+
+.boton {
+    width: 161px;
+    height: 67px;
+    margin-top: 90px;
+    background-color: $colorsecunadario;
+    border-radius: 100px;
+    padding: 0px;
+}
+
+.letraboton {
+    font-size: 15px;
+}
+
+.maps {
+    height: 100%;
+    width: 100%;
+}
+
+.pad {
+    padding: 0;
+}
+
+.maps {
+    height: 100%;
+    width: 100%;
+}
+
+.bordeder {
+    border-right: 4px dashed $colorsecunadario;
+}
+
+.bordeizq {
+    border-left: 4px dashed $colorsecunadario;
+}
+
+
+@media screen and (max-width: $mediaMobile) {
+    .margen-titulo {
+        margin-top: 60px;
+    }
+
+    .titulo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .margen-video {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .video {
+        height: 50px;
+        width: 50px;
+    }
+
+    .boton {
+        width: 100px;
+        height: 50px;
+        justify-content: center;
+        padding-right: 0px;
+    }
+
+    .letraboton {
+        font-size: 13px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .fondo,
+    .fondo1 {
+        height: 150px;
+        padding: 0px;
+    }
+
+    .maps {
+        height: 100%;
+        width: 100%;
+    }
+
+    .pad {
+        padding: 0;
+    }
+
+    .bordeder {
+        border-right: 4px dashed $colorsecunadario;
+    }
+
+    .bordeizq {
+        border-left: 4px dashed $colorsecunadario;
+    }
+}
