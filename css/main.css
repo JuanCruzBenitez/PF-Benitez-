@@ -226,6 +226,9 @@ body {
   .bajarmas {
     margin-top: 240px; } }
 
+.margen-so {
+  margin-top: 200px; }
+
 @media screen and (max-width: 600px) {
   .titulono {
     display: flex;
